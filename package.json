@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp watch"
   },
   "keywords": [],
   "author": "",
@@ -12,8 +12,12 @@
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
   }
 }
